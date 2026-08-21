@@ -10,7 +10,8 @@ from __future__ import annotations
 from fastapi import APIRouter, HTTPException
 
 from app.data.catalog import get_game, get_mod
-from app.ml.model import ModelNotLoadedError, predict as run_prediction
+from app.ml.model import ModelNotLoadedError
+from app.ml.model import predict as run_prediction
 from app.schemas import FeatureImportanceOut, PredictRequest, PredictResponse
 
 router = APIRouter(tags=["predict"])

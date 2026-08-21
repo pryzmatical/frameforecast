@@ -90,7 +90,7 @@ def main() -> None:
             "version": MODEL_VERSION,
             "train_mae": round(float(mae), 2),
             "train_r2": round(float(r2), 3),
-            "n_training_rows": int(len(df)),
+            "n_training_rows": len(df),
         },
         MODEL_PATH,
         compress=3,
