@@ -6,7 +6,7 @@ trained on a hand-curated dataset.
 
 ## Why this exists
 
-My other public repos ([BriefGen](https://github.com/pryzmatical/FunctionJunction),
+My other public repos ([BriefGenerator](https://github.com/pryzmatical/BriefGenerator),
 [OpsDesk](https://github.com/pryzmatical/OpsDesk), [WebhookRelay](https://github.com/pryzmatical/WebhookRelay))
 are all built around patterns I use professionally. This one isn't -- I
 built it out of genuine personal interest in PC hardware and modding, and
@@ -152,7 +152,6 @@ end-to-end browser test across the real backend + frontend together.
 ## What's not implemented
 
 - No accounts or saved history -- this is a stateless calculator, by design
-- No CI pipeline
 - No real per-mod benchmarking (see Methodology -- this is a category-based
   estimate, not a claim about any specific mod)
 
